@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'monoidregular';
+    src: url('monoid-regular-nocalt-webfont.woff2') format('woff2'),
+         url('monoid-regular-nocalt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    font-family: 'monoidregular', Arial, sans-serif;
+    color: #222;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background: #e9c80f;
+}
+
+h1 {
+    margin-block: 10px;
+}
+
+p {
+    margin-block: 20px;
+}
